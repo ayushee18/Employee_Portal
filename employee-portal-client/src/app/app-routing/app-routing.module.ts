@@ -6,7 +6,7 @@ import { EmployeeListComponent } from '../employee-list/employee-list.component'
 import { PageNotFoundComponent } from '../page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
-  { path: 'list-all-employees', component: EmployeeListComponent }
+  { path: 'list-all-employees', component: EmployeeListComponent },
   { path: 'register', component: EmployeeEditorComponent },
   { path: '',   redirectTo: '/register', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
